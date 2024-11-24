@@ -9,14 +9,14 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "BAD_BOY",
+  "BOTNAME": "",
   "PREFIX": ".",
   "OPERATOR": [
     "",
-    "100089926788317"
+    "100077691215839"
   ],
   "ADMINBOT": [
-    "100089926788317",
+    "100077691215839",
     ""
   ],
   "OWNER": ["100000959749712"], 
