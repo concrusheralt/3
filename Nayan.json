@@ -9,7 +9,7 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "",
+  "BOTNAME": "mute unmute",
   "PREFIX": ".",
   "OPERATOR": [
     "",
