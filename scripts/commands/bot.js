@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
   config: {
-    name: "kala",
+    name: "mute",
     version: "1.0.0",
     permission: 0,
     credits: "nayan",
@@ -60,7 +60,7 @@ module.exports = {
 
 
       if (!msg) {
-        const greetings = [" How can I help you? ", "السلام عليكم ورحمه الله وبركاته ", " আয়নায় কখনো নিজের মুখ দেখেছো 😏..?"," কি হয়েছে সমস্যা কি..?😤","দূরে গিয়ে মরো 🥱"," amake kew valobashe na","দূর ছ্যাতা কথা-ই কবো না",];
+        const greetings = [" How can I help you? ", "السلام عليكم ورحمه الله وبركاته ", " আয়নায় কখনো নিজের মুখ দেখেছো 😏..?"," কি হয়েছে সমস্যা কি..?😤","🔕mute = মিউট🔇 মুতে বললে ✂️✂"," amake kew valobashe na","দূর ছ্যাতা কথা-ই কবো না",];
         const name = await Users.getNameUser(events.senderID);
         const rand = greetings[Math.floor(Math.random() * greetings.length)];
         return nayan.reply({
