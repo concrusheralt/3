@@ -4,15 +4,15 @@ const { shorten } = require('tinyurl');
 
 module.exports.config = {
   name: "4k",
-  version: "1.6.9",
-  credits: "dipto",//** original owner MR.AYAN...this cmd convert to mirai now**//
-  hasPermission: 0,
-  usePrefix: false,
-  commandCategory: "image",
-  cooldowns: 4,
+  version: "1.0.0",
+  permission: 2,
+  credits: "imran",
+  prefix: "false",
   description: "Image enhancer",
-  usage: "<p> 4k [reply to an image]",
-  };
+  category: "image",
+  usages: "<p> 4k [reply to an image",
+  cooldowns: 4
+};
 
   module.exports.run = async function ({ api, event, args }) {
     const { threadID, messageID } = event;
