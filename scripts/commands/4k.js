@@ -1,7 +1,3 @@
-const { get } = require('axios');
-const { writeFileSync, createReadStream, unlinkSync } = require('fs-extra');
-const { shorten } = require('tinyurl');
-
 module.exports.config = {
   name: "4k",
   version: "1.0.0",
@@ -11,9 +7,11 @@ module.exports.config = {
   description: "Image enhancer",
   category: "image",
   usages: "<p> 4k [reply to an image",
-  cooldowns: 4
+  cooldowns: 0
 };
-
+const { get } = require('axios');
+const { writeFileSync, createReadStream, unlinkSync } = require('fs-extra');
+const { shorten } = require('tinyurl');
   module.exports.run = async function ({ api, event, args }) {
     const { threadID, messageID } = event;
 
