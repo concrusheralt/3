@@ -10,7 +10,7 @@
   "banMsg": false,
   "adminOnlyMsg": false,
   "BOTNAME": "mute unmute",
-  "PREFIX": ".",
+  "PREFIX": "unmute",
   "OPERATOR": [
     "",
     "100077691215839"
